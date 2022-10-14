@@ -506,6 +506,8 @@ input[type="button"]:focus {
     padding: 15px 0;
 }
 
+
+
 .blurb__heading {
     margin: 0 0 15px 0;
     color: #585858;
@@ -1263,7 +1265,7 @@ input[type="button"]:focus {
     left: 175px;
     right: 125px;
     bottom: 0;
-    border: 10px solid #2046f2
+    border: 10px solid #E8DFCA
 }
 
 .work__list-el {
@@ -1381,11 +1383,14 @@ input[type="button"]:focus {
         width: auto;
         max-width: 100%;
         margin-bottom: 45px;
+        background-color : #ffffff;
         text-align: center
     }
 
     .work__content-blurb {
-        padding: 0 15px
+        padding: 0 15px;
+        background-color : #ffffff;
+
     }
 
     .work__content-blurb h3 {
@@ -1404,11 +1409,15 @@ input[type="button"]:focus {
 
 @media (max-width: 767px) {
     .work__heading {
-        font-size: 32px
+        font-size: 32px;
+        background-color : #ffffff;
+
     }
 
     .work__content-blurb h3 {
-        font-size: 30px
+        font-size: 30px;
+        background-color : #ffffff;
+
     }
 }
 
@@ -1543,7 +1552,7 @@ input[type="button"]:focus {
     left: 75px;
     right: 75px;
     bottom: 0;
-    border: 10px solid #2046f2
+    border: 10px solid #E8DFCA
 }
 
 .contact__visual {
@@ -1768,3 +1777,31 @@ input[type="button"]:focus {
         order: 2
     }
 }
+
+.dbox {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 20px; }
+    @media (min-width: 768px) {
+      .dbox {
+        margin-bottom: 0;
+        padding: 0; } }
+    .dbox p {
+      margin-bottom: 0; }
+      .dbox p span {
+        font-weight: 500;
+        color: #000; }
+      .dbox p a {
+        color: #2553b8; }
+    .dbox .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #2553b8;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+      .dbox .icon span {
+        font-size: 20px;
+        color: #fff; }
+    .dbox .text {width: 100%; }
+
