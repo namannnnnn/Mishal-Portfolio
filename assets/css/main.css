@@ -1097,7 +1097,8 @@ input[type="button"]:focus {
     background-image: url("../img/app-design-visual.png");
     background-position: center;
     background-size: 100%;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    opacity:initial
 }
 
 @media (max-width: 991px) {
@@ -1250,7 +1251,6 @@ input[type="button"]:focus {
     position: relative;
     width: 100%;
     padding: 120px 0 60px 0;
-    background-color: #fafafa
 }
 
 .work__list {
@@ -1383,13 +1383,11 @@ input[type="button"]:focus {
         width: auto;
         max-width: 100%;
         margin-bottom: 45px;
-        background-color : #ffffff;
         text-align: center
     }
 
     .work__content-blurb {
         padding: 0 15px;
-        background-color : #ffffff;
 
     }
 
@@ -1410,13 +1408,11 @@ input[type="button"]:focus {
 @media (max-width: 767px) {
     .work__heading {
         font-size: 32px;
-        background-color : #ffffff;
 
     }
 
     .work__content-blurb h3 {
         font-size: 30px;
-        background-color : #ffffff;
 
     }
 }
